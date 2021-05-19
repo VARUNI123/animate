@@ -1,0 +1,25 @@
+
+.container{
+    margin: 10px 5% 0 5%;
+    
+}
+ul li a{
+    color: grey;
+    font-size: 20px;   
+}
+ul li.active{
+    border-bottom:3px solid rgb(48, 48, 248);
+}
+.nav-tabs{
+    border-bottom: 3px solid rgb(216, 210, 210);
+}
+.nav-tabs #one{
+    margin-right: 35%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: rgb(48, 48, 248);
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-bottom-color: transparent;
+}
